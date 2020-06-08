@@ -1,0 +1,57 @@
+{
+  "name": "dash-automacao",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.10.1",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.55",
+    "axios": "0.19.2",
+    "idb-keyval": "3.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "dev": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "react-app",
+      "standard",
+      "standard-react"
+    ]
+  },
+  "rescripts": [
+    "env"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rescripts/cli": "0.0.14",
+    "@rescripts/rescript-env": "0.0.12",
+    "babel-eslint": "10.1.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-config-standard-react": "9.2.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-standard": "4.0.1",
+    "react-hot-loader": "4.12.21"
+  }
+}
